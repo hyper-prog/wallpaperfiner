@@ -1,1 +1,1 @@
-windres eonimport.rc -O coff -o wpfiner.res
+windres wpfiner.rc -O coff -o wpfiner.res
