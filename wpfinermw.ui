@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WpFinerMainWidget</class>
+ <widget class="QMainWindow" name="WpFinerMainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WallpaperFiner (http://hyperprog.com)</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="wpfiner.qrc">
+    <normaloff>:/pixmaps/wpfiner_small.png</normaloff>:/pixmaps/wpfiner_small.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>To size:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb">
+        <property name="maxVisibleItems">
+         <number>40</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="toWapplapierButton">
+        <property name="text">
+         <string>To Desktop</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="MyDropFrame" name="frame">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="wpfiner.qrc">
+     <normaloff>:/pixmaps/openicon.png</normaloff>:/pixmaps/openicon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="wpfiner.qrc">
+     <normaloff>:/pixmaps/saveicon.png</normaloff>:/pixmaps/saveicon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_Batch">
+   <property name="text">
+    <string>Save Batch</string>
+   </property>
+  </action>
+  <action name="actionScale_down">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Scale down to desktop size</string>
+   </property>
+  </action>
+  <action name="actionAuthor_About">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pixmaps/infoicon.png.png</normaloff>:/pixmaps/infoicon.png.png</iconset>
+   </property>
+   <property name="text">
+    <string>Author</string>
+   </property>
+  </action>
+  <action name="actionSave_in_BMP_format_Win_XP">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Save in BMP format (Win XP)</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyDropFrame</class>
+   <extends>QFrame</extends>
+   <header>wpfiner.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="wpfiner.qrc"/>
+ </resources>
+ <connections/>
+</ui>

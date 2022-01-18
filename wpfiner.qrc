@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pixmaps/compressicon.png</file>
+        <file>pixmaps/openicon.png</file>
+        <file>pixmaps/saveicon.png</file>
+        <file>pixmaps/wpfiner.png</file>
+        <file>pixmaps/wpfiner_small.png</file>
+        <file>pixmaps/exiticon.png</file>
+        <file>pixmaps/infoicon.png</file>
+        <file>wpfiner_hu.qm</file>
+        <file>wpfiner_pl.qm</file>
+    </qresource>
+</RCC>

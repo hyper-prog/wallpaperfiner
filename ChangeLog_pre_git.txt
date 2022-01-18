@@ -1,0 +1,18 @@
+0.94
+  -Makes the program permanently saves your settings.
+  -Windows: The program binary now contains all language.
+   You can select the necessary language on the first run.
+  -Polish translation (Thanks for Tomasz "ludvick" Niedzielski)
+
+0.932
+  -Makes the wallpaperfiner can change wallpaper on Os/2
+  
+0.931
+  -Fixed a typo (Blocked the Open image, Save image menus)
+  
+0.93
+  -Added Png format
+  -Hungarian translation
+  
+0.92 
+  Initial release on hyperprog.com

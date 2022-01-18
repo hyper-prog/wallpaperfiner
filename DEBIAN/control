@@ -1,0 +1,12 @@
+Package: wallpaperfinder
+Version: 0.94-1
+Section: graphics
+Priority: optional
+Architecture: amd64
+Depends: libqtcore4 (>= 4.8.0), libqtgui4 (>> 4.8.0)
+Conflicts:
+Replaces:
+Installed-Size: 152000
+Maintainer: Peter Deak <hyper80@gmail.com>
+Description: WallpaperFiner
+ Wallpaper finer is a small tool to crop and scale your photos correctly to your desktop
